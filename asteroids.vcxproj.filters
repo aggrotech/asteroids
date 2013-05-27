@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{625fd5b9-86a7-46a8-8167-ecb095be2dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{bd00951e-444a-4fce-9544-1f39229e03f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{0d63c8b6-ac70-4df3-a07f-50655a0e431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReferenceData">
+      <UniqueIdentifier>{c065f630-73d1-4c41-97cf-214557e7f2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{7b3cd848-2630-4b48-bb93-9dd0d3c76395}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsIncludes.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GoBuilder.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInstance.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStats.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceDataArchive.h">
+      <Filter>ReferenceData</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshReference.h">
+      <Filter>ReferenceData</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicsReference.h">
+      <Filter>ReferenceData</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableMesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInstance.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GoBuilder.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceDataArchive.cpp">
+      <Filter>ReferenceData</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
